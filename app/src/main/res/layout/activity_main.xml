@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/black"
+    >
+
+  <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:textColor="@color/white"
+      android:text="CALCULATOR"
+      android:fontFamily="sans-serif-medium"
+      android:layout_marginTop="20dp"
+      android:gravity="center"
+      android:textSize="35dp"
+      android:textStyle="bold">
+
+  </TextView>
+
+  <LinearLayout
+      android:layout_marginTop="50dp"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="vertical">
+
+    <include
+        layout="@layout/result"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        />
+    <include
+        layout="@layout/cal_btn"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"/>
+
+  </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="actionbtnbg">#55E4E4</color>
+    <color name="purple">#860F9A</color>
+    <color name="orange">#EF663B</color>
+    <color name="colorgray"> #85929e </color>
+    <color name="actionbtntxt">  #d5dbdb  </color>
+    <color name="yellow">#FFEB3B</color>
+    <color name="black">#000407</color>
+    <color name="btnbgcolor">    #333333  </color>
+    <color name="btntxt"> #f4f6f7</color>
+    <color name="white">#FCFEFF</color>
+
+
+</resources>
